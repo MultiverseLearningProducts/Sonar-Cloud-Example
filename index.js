@@ -6,9 +6,7 @@ const groupsOfThree = []
 for(let i = 0; i < input.length; i += 3){
     groupsOfThree.push([input[i], input[i + 1], input[i + 2]])
 }
-let x = 0;
-let y = 0;
-let z = 0;
+
 let foundLetters = []
 groupsOfThree.forEach(word => {
     let flag = true
